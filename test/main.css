@@ -9,6 +9,8 @@ body {
 #product-overview {
     background: #ff1b68;
     width: 100%;
+    height: 528px;
+    padding: 10px;
 
 }
 
@@ -28,26 +30,62 @@ body {
 .main-header {
     width: 100%;
     background-color: #2ddf5c;
-    padding: 8px;
-}
-
-.main-nav__items {
-    display: inline-block;
-    list-style: none;
+    padding: 8px 16px;
 }
 
 .main-header > div {
     display: inline-block;
-}
-
-.main-nav {
-    display: inline-block;
-    width: calc(100%-54px);
+    vertical-align: middle;
 }
 
 .main-header__brand {
     text-decoration: none;
-    color: #2ddf5c;
+    color: #0e4f1f;
     font-weight: bold;
     font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100%-50px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background-color: white;
+    border: none;
 }
