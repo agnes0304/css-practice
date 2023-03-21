@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 #product-overview {
     background: #ff1b68;
+    width: 100%;
+
 }
 
 .section-title {
@@ -18,3 +24,30 @@ body {
 /* h1 {
     font-family: sans-serif;
 } */
+
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px;
+}
+
+.main-nav__items {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-header > div {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100%-54px);
+}
+
+.main-header__brand {
+    text-decoration: none;
+    color: #2ddf5c;
+    font-weight: bold;
+    font-size: 22px;
+}
