@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
+    z-index: -1;
 }
 
 main {
@@ -16,6 +17,7 @@ main {
     margin: 16px 0;
     padding: 32px;
     width: 80%;
+    position: relative;
 }
 
 .package:hover,
@@ -29,6 +31,14 @@ main {
     color: inherit;
     display: block;
     padding: 32px;
+}
+
+.pack__badge {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    margin: 20px;
+    
 }
 
 .pack__subtitle {
