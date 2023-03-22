@@ -16,11 +16,80 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+
+.plan {
+    display: inline-block;
+    background-color: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    width: 30%; 
+    vertical-align: middle;
+}
+
+.plan--highlight {
+    background-color: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 4px 2px rgb(0,0,0,0.5);
+
+}
+
+.plan__recommend {
+    background-color: white;
+    color: #19b84c;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
+    border-radius: 4px;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__features li {
+    margin: 8px 0;
+}
+
+.plan__title {
+    color: #19b84c;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan--highlight .plan__title {
+    color: white;
+}
+
+.plan--highlight .plan__price {
+    color: #0e4f1f;
+}
+
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    color: #0e4f1f;
+    background-color: white;
 }
 
 /* h1 {
