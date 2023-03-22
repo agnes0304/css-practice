@@ -1,0 +1,49 @@
+.plans {
+    font: inherit;
+    background-color: #d5ffdc;
+    border: 2px solid #0e4f1f;
+    margin: 8px;
+    padding: 32px;
+    width: 50%;
+}
+
+.plan {
+    text-decoration: none;
+    font: inherit;
+}
+
+.plan h1 {
+    color: black;
+}
+
+.plan h2 {
+    color: #858585;
+}
+
+.plan p {
+    background-color: white;
+    color: #0e4f1f;
+    border: 2px solid #0e4f1f;
+    padding: 16px;
+}
+
+.plans-highlight {
+    font: inherit;
+    background-color:#0e4f1f;
+    border: 2px solid #0e4f1f;
+    margin: 8px;
+    padding: 32px;
+    width: 50%;
+}
+
+.plans-highlight .plan h1 {
+    color: white;
+}
+
+
+.plans:hover,
+.plans:active {
+    background-color: #bafcc5;
+    border-color: #ff1b68;
+    box-shadow: 2px 2px 4px 2px rgb(0,0,0,0.5);
+}
