@@ -199,5 +199,5 @@ body {
 
 
 .open {
-    display: block;
+    display: block !important;
 }

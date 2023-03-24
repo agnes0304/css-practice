@@ -30,7 +30,9 @@ backdrop.addEventListener('click', function(){
     closeModal();
 });
 
-modalNoBtn.addEventListener('click', closeModal);
+if(modalNoBtn){
+    modalNoBtn.addEventListener('click', closeModal);
+}
 
 toggleBtn.addEventListener('click', function(){
     mobileNav.classList.add('open');
