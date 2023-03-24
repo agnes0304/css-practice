@@ -20,7 +20,9 @@ for (let i = 0; i < selectPlanBtns.length; i++) {
 function closeModal(){
     // backdrop.style.display='none';
     // modal.style.display='none';
-    modal.classList.remove('open');
+    if (modal){
+        modal.classList.remove('open');
+    }
     backdrop.classList.remove('open');
 }
 
