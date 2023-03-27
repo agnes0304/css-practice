@@ -90,6 +90,11 @@ main {
 }
 
 @media (min-width: 40rem) {
+    main {
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .package {
         border-left: 4px solid #0e4f1f;
     }
